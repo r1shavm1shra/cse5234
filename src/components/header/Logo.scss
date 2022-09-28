@@ -1,0 +1,16 @@
+.logo {
+  padding: 1.5rem 2.5rem 0 1rem;
+  position: relative;
+
+  &__img {
+    height: calc(var(--header-height) - 2rem);
+    max-width: 100%;
+  }
+
+  &__country {
+    position: absolute;
+    font-size: var(--h6-size);
+    bottom: 1.2rem;
+    font-weight: bold;
+  }
+}
